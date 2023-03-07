@@ -9,53 +9,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-html {
-    font-size: 62.5%;
-}
-
-body {
-    font-family: 'Anek Latin', sans-serif;
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    
-}
-
-   h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 6rem;
-    text-transform: uppercase;
-   }
-.intro{
-
-    font-size: 2.3rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    color: var(--primary-color);
-}
-    .intro-bg{
-        background-image: url(img/download\ \(1\).jpg);
-        background-size: cover;
-        background-position: center center;
-        color: var(--primary-color);
-    }
-
-    .intro-content{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .main-content{
-        max-width: 1200px;
-        margin: 0 auto;   
-        padding: var(--gap);
-    }
     html {
         font-size: 62.5%;
     }
@@ -63,7 +16,6 @@ body {
     body {
         font-family: 'Anek Latin', sans-serif;
         font-size: 1.8rem;
-        color: var(--primary-color);
         
     }
     
@@ -71,19 +23,56 @@ body {
         font-family: 'Lato', sans-serif;
         font-size: 6rem;
         text-transform: uppercase;
+        text-align: center;
        }
-
-.section{
-    min-height: 100vh;
-}
-.white-bg{
-    background: var(--white-color);
-    color: var(--primary-color);
-   }
-   .intro h1{
-    font-size: 2.3rem;
-    color: var(--primary-color);
-}
-.intro h1 a{
-    color: inherit;
-}
+       h2{
+        font-family: 'Lato', sans-serif;
+        font-size: 5.5rem;
+       }
+    
+       .main-bg{
+        background-size: cover;
+        background-position: center center;
+        color: var(--primary-color);
+       
+    }
+     .white-bg{
+        background: var(--white-color);
+        color: var(--primary-color);
+       }
+    .main-content{
+        max-width: 1200px;
+        margin: 0 auto;   
+        padding: var(--gap);
+    }
+    .section{
+        min-height: 100vh;
+    }
+    .menu{
+        color: var(--primary-color);
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        border-bottom: 0.1rem solid var(--menu-color);
+        z-index: 1;
+        background-image: url('..img/ororo.jpg');
+    }
+    .menu-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        background-image: url('..img/ororo.jpg');
+        padding-bottom: 0;
+    }
+    .menu h1{
+        font-size: 2.3rem;
+        color: var(--primary-color);
+    }
+    .menu h1 a{
+        color: inherit;
+    }
+   
